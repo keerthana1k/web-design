@@ -1,0 +1,108 @@
+body{
+    background-color: white;
+}
+.navbar{
+    padding: 20px;
+    background-color: transparent;
+     display: flex;
+    justify-content: flex-start;
+}
+ .n{
+padding-left: 20px;
+ }
+ .w{
+    padding-left: 20px; 
+ }
+ .m{
+    padding-left: 20px;
+ }
+ .u{
+    padding-left: 20px;
+ }
+
+.banner{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.slider{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+   top: 0;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+.sliderimg{
+    width: 100%;
+    height: 100%;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7));
+    position: absolute;
+   top: 0;
+}
+.menu-icons{
+  
+   padding:0px 1250px;
+    letter-spacing: 50px;
+    background-color: transparent;
+     display: flex;
+    justify-content: flex-end;
+    font-size:25px;
+}
+.search input[type=search]{
+
+padding: 29px 35px;
+border: 0;
+border-bottom: 1px solid #fff;
+background: transparent;
+outline: none;
+height:40px ;
+font-size: 16px;
+color: white;
+  
+}
+.text-overlay{
+    color: rgb(194, 35, 35);
+    margin: 80px;
+    font-weight: 200;
+}
+.ps-4{
+    margin: 40px;
+    background-color:rgb(125, 117, 143);
+    border-radius: 50%;
+}
+.w3-circle{
+    border-radius: 50%;
+}
+.ps-3{
+    margin: 40px;
+    background-color:rgb(125, 117, 143);
+    border-radius: 50%;
+    }
+    .card{
+    background-color: white;
+    }
+    .card:hover{
+    background-color:gray;
+    }
+    .ABOUTUS{
+       
+        padding: 100px;
+        background-color: rgb(125, 117, 143);
+        border-style: groove;
+        
+        }
+        .shop{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        }
+        .social{
+        margin: 30px;
+        }
